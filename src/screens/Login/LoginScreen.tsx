@@ -87,6 +87,7 @@ thirdText:{
   color: '#252525',
   width: '87%',
   fontWeight: 'bold',
+  fontSize: width * 0.033,
 },
 inputContainer:{
   alignItems: 'center',
