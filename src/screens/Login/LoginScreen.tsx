@@ -38,22 +38,20 @@ export const LoginScreen = () => {
         </View>
 
         <TouchableOpacity style={styles.bottom}>
-
           <Text style={styles.bottomText}>Iniciar</Text>
-
         </TouchableOpacity>
 
         <View style={styles.forgotContainer}>
-          <TouchableOpacity>
-            <Text style={styles.forgotText}>He olvidado mi contraseña</Text>
-          </TouchableOpacity>
+            <TouchableOpacity>
+              <Text style={styles.forgotText}>He olvidado mi contraseña</Text>
+            </TouchableOpacity>
         </View>
 
         <View style={styles.registerContainer}>
           <Text style={styles.text}>¿No tienes cuenta? </Text>
-          <TouchableOpacity onPress={() => nav.navigate('RegisterScreen' as never)}>
-            <Text style={styles.textRegister}>Regístrate</Text>
-          </TouchableOpacity>
+            <TouchableOpacity onPress={() => nav.navigate('RegisterScreen' as never)}>
+              <Text style={styles.textRegister}>Regístrate</Text>
+            </TouchableOpacity>
         </View>
           
       </SafeAreaView>

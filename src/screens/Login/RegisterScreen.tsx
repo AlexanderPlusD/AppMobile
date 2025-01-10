@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { StyleSheet, Text, Dimensions, View, TextInput } from 'react-native'
+import { StyleSheet, Text, Dimensions, View, TextInput, ViewBase, TouchableOpacity } from 'react-native'
 import { ScrollView } from 'react-native-gesture-handler'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { Dropdown } from 'react-native-element-dropdown'
@@ -72,6 +72,32 @@ export const RegisterScreen = () => {
                           />
                         </View>
             </View>
+
+            <View style={styles.inputContainer}>
+                  <Text style={styles.thirdText}>Email</Text>
+                  <TextInput
+                  style={styles.input}
+                  placeholder='Escribe tu email'
+                  placeholderTextColor={'grey'}
+                  />
+            </View>
+
+
+            <View style={styles.inputContainer}>
+                  <Text style={styles.thirdText}>Contraseña</Text>
+                  <TextInput
+                  style={styles.input}
+                  placeholder='Escribe tu contraseña'
+                  placeholderTextColor={'grey'}
+                  secureTextEntry={true}
+                  />
+            </View>
+
+
+            <TouchableOpacity style={styles.buttonContainer}>
+              <Text style={styles.bottomText}>Registrar</Text>
+            </TouchableOpacity>
+
           </ScrollView>
           
         </SafeAreaView>
@@ -85,6 +111,7 @@ const styles = StyleSheet.create({
     fontSize: width * 0.08,
     fontWeight: 'bold',
     textAlign: 'center',
+    marginTop: height * 0.1,
   },
   secondText:{
     color: '#575454',
@@ -158,6 +185,21 @@ const styles = StyleSheet.create({
   inputSearchStyle: {
     height: 40,
     fontSize: 16,
+  },
+  buttonContainer:{
+    backgroundColor: '#7257FF',
+    width: '90%',
+    height: height * 0.06,
+    justifyContent: 'center',
+    alignSelf: 'center',
+    marginTop: height * 0.05,
+    borderRadius: 10,
+  },
+  bottomText: {
+    color: 'white',
+    textAlign: 'center',
+    fontWeight: 'bold',
+    fontSize: width * 0.04,
   },
 
 })
