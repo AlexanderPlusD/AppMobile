@@ -22,7 +22,7 @@
 
 ---
 
-## 👨‍💻 Equipo de Desarrollo
+## 👨‍💻 Equipo de Desarrollo 
 
 Este proyecto fue desarrollado por estudiantes de la **Universidad Tecnológica Metropolitana**:
 
