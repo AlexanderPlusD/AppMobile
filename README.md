@@ -10,7 +10,7 @@
 
 ## 🔗 Recursos del Proyecto
 
-- 🎨 Diseño en Figma: [Accede al diseño aquí](https://www.figma.com/design/OScZPEYKUCubmUIYNYAW3c/Take-it?node-id=1-3&m=dev&t=0VtvRDd1akyuA5Q0-1)
+- 🎨 Diseño en Figma: [Accede al diseño aquí](https://www.figma.com/design/iUdExX94RDxO31qsWb0C0h/TAKE-IT?node-id=1-1788&t=hmlI9ca0VikOPPjF-1)
 - 🖌 Diseño gráfico en Canva: [Accede aquí](https://www.canva.com/design/DAGSef4-JsU/S6YdkJ9h6yS5z4m4CgDYCw/edit?utm_content=DAGSef4-JsU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ---
